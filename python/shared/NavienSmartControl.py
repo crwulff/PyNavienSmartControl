@@ -15,19 +15,11 @@ __credits__ = ["matthew1471", "Gary T. Giesen"]
 __date__ = "3/15/2022"
 __license__ = "GPL"
 
-import threading
 import time
 from concurrent.futures import Future
-from datetime import date
 
 # Third party library
 import requests
-
-# We unpack structures.
-import struct
-
-# We use namedtuple to reduce index errors.
-import collections
 
 # We use Python enums.
 import enum

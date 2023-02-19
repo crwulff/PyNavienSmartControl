@@ -30,13 +30,9 @@ setuptools.setup(
     packages=setuptools.find_packages(where="python/shared"),
     install_requires=[
         "requests",
-        "socket",
-        "struct",
-        "collections",
-        "binascii",
-        "enum",
-        "json",
         "argparse",
+        "awscrt",
+        "awsiotsdk"
     ],
-    python_requires=">=2.7",
+    python_requires=">=3.4",
 )
